@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# Particles Background Styling
+--------------------------------------------------------------*/
+#particles-js {
+  position: absolute;
+  width: 100% !important;
+  height: 100vh !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+}
+
+#hero .hero-container {
+  z-index: 3 !important;
+  position: relative !important;
+  pointer-events: none !important;
+}
+
+#hero:before {
+  z-index: 1 !important;
+  pointer-events: none !important;
+}
+
+#hero {
+  position: relative !important;
+  overflow: hidden !important;
+}
